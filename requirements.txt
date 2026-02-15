@@ -1,0 +1,30 @@
+# Core
+streamlit==1.29.0
+python-dotenv==1.0.0
+
+# PDF Processing
+PyPDF2==3.0.1
+pdfplumber==0.10.0
+pymupdf==1.23.8  # fitz
+
+# Vector DB & Embeddings
+chromadb==0.4.18
+sentence-transformers==2.2.2
+langchain==0.1.0
+langchain-community==0.0.10
+
+# LLM Integration
+google-generativeai>=0.7.2
+groq==0.4.2
+
+# Utilities (removed concurrent-futures - it's built-in)
+numpy==1.24.3
+pandas==2.0.3
+tqdm==4.66.1
+python-json-logger==2.0.7
+tiktoken==0.5.2
+onnxruntime-gpu
+
+# UI Enhancements
+streamlit-chat==0.1.1
+streamlit-extras==0.3.6
